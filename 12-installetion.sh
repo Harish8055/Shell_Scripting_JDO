@@ -4,7 +4,7 @@ USERID=$(id -u) # Get the user ID of the current user
 
 if [ "$USERID" -ne 0 ]; then
     echo "This script must be run as root. Please run with sudo or as root user."
-    exit 1
+    exit 1 # failure is other than 0
 fi
 
 dnf install -y git # Install git using dnf package manager
