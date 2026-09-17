@@ -10,7 +10,7 @@ fi
 
 VALIDATE=$() # Check if git is already installed using dnf package manager    
 
-if [ $1 -ne 0 ]; then
+if [ $1 : -ne 0 ]; then
     echo "ERROR :: Instaling $2 is faiur."
     exit 1
 
