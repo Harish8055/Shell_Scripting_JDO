@@ -7,3 +7,9 @@
 
  SUM=$((NUMBER1 + NUMBER2)) # Here we are using arithmetic expansion to calculate the sum of NUMBER1 and NUMBER2.
 echo "Sum of $NUMBER1 and $NUMBER2 is: $SUM" # Here we are using the variable SUM to display the result of the addition.
+
+Number3=30
+Number4=40
+Name="John_Doe"
+SUM=$((NUMBER1 + NUMBER2 + Name)) # Here we are using arithmetic expansion to calculate the sum of NUMBER1, NUMBER2, and Name.
+echo "Sum of $NUMBER1, $NUMBER2, and $Name is: $SUM" # Here we are using the variable SUM to display the result of the addition .
