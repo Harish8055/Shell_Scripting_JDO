@@ -11,3 +11,4 @@ echo "current process Directory: $PWD" # Here we are using the special variable 
 echo "Who  is running the script: $USER" # Here we are using the special variable $USER to display the username of the user running the script.
 echo "home directory of the user: $HOME" # Here we are using the special variable $HOME to display the home directory of the user running the script.
 
+echo "PID of the script is: $$" # Here we are using the special variable $$ to display the process ID of the script.
