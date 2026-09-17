@@ -13,3 +13,10 @@ Number4=40
 Name="John_Doe"
 SUM=$((NUMBER1 + NUMBER2 + Name)) # Here we are using arithmetic expansion to calculate the sum of NUMBER1, NUMBER2, and Name.
 echo "Sum of $NUMBER1, $NUMBER2, and $Name is: $SUM" # Here we are using the variable SUM to display the result of the addition .
+
+LEADERS=("MODI" "RAHUL" "SACHIN" "VIRAT") # Here we are using an array to store the names of leaders.
+echo "All Leaders are: ${LEADERS[@]}" # Here we are using the array
+
+echo "First Leader is: ${LEADERS[0]}" # Here we are using the array to display the first leader.
+echo "Second Leader is: ${LEADERS[1]}" # Here we are using the array to display the second leader. 
+
