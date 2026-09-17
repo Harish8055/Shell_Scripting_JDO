@@ -1,7 +1,8 @@
 #!/bin/bash
 
 
-Ramesh:: Hi Suresh, How are you?
-Suresh:: Hi Ramesh, I am fine. How are you?
-Ramesh:: what are you learning recently?
-Suresh:: I am learning Shell Scripting. It is very interesting.
+echo "Ramesh":: "Hi Suresh, How are you?"
+echo "Suresh":: "Hi Ramesh, I am fine. How are you?"
+echo "Ramesh":: "what are you learning recently?"
+echo "Suresh":: "I am learning Shell Scripting. It is very interesting."
+
