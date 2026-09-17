@@ -8,3 +8,24 @@ if [ $NUMBER -lt 10 ]; then
     echo "The $NUMBER is Greater or equal to 10."
 
 fi
+
+if [ $NUMBER -gt 10 ]; then
+    echo "The $NUMBER is Less than 10."
+ else
+    echo "The $NUMBER is Greater or equal to 10."
+
+fi
+
+if [ $NUMBER -ne 10 ]; then
+    echo "The $NUMBER is Less than 10."
+ else
+    echo "The $NUMBER is Greater or equal to 10."
+
+fi
+
+if [ $NUMBER -eq 10 ]; then
+    echo "The $NUMBER is Less than 10."
+ else
+    echo "The $NUMBER is Greater or equal to 10."
+
+fi
